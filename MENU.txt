@@ -1,0 +1,169 @@
+<!doctype html>
+<head>
+<title>MENU</title>
+<style>
+.menu-body {
+  max-width: 680px;
+  margin: 0 auto;
+  display: block;
+  color: rgb(92, 92, 92);
+}
+ 
+.menu-section {
+  margin-bottom: 80px;
+}
+ 
+.menu-section-title {
+  font-family: georgia;
+  font-size: 50px;
+  display: block;
+  font-weight:normal;
+  margin: 20px 0; 
+  text-align: Center;
+}
+ 
+.menu-item {
+  margin: 35px 0;
+  font-size: 18px;
+}
+ 
+.menu-item-name{
+  font-family: helvetica;
+  font-weight: bold;
+  border-bottom: 2px dotted rgb(213, 213, 213);
+}
+ 
+.menu-item-description {
+  font-style: italic;
+  font-size: .9em;
+  line-height: 1.5em;
+}
+ 
+.menu-item-price{
+  float: right;
+  font-weight: bold;
+  font-family: arial;
+  margin-top: -22px;
+}
+
+</style>
+</head>
+<body>
+<div class="menu-body">
+   <!-- Section starts: Appetizers -->
+   <div class="menu-section">
+      <h2 class="menu-section-title">MAIN COURSE</h2>
+      <!-- Item starts -->
+      <div class="menu-item">
+         <div class="menu-item-name">
+            Delicious Pasta
+         </div>
+         <div class="menu-item-price">
+            Rs.500
+         </div>
+         <div class="menu-item-description">
+            Best pasta , have a juicy flavour   
+         </div>
+      </div>
+      <!-- Item ends -->
+      <!-- Item starts -->
+      <div class="menu-item">
+         <div class="menu-item-name">
+             Chilli Paneer 
+         </div>
+         <div class="menu-item-price">
+            Rs.650
+         </div>
+         <div class="menu-item-description">
+            If paneer is you favourite then this is for you
+         </div>
+      </div>
+      <!-- Item ends -->
+      <!-- Item starts -->
+      <div class="menu-item">
+         <div class="menu-item-name">
+          Noodels
+         </div>
+         <div class="menu-item-price">
+            Rs.150
+         </div>
+         <div class="menu-item-description">
+            like chinese, do try this.....
+         </div>
+      </div>
+      <!-- Item ends -->
+      <!-- Item starts -->
+      <div class="menu-item">
+         <div class="menu-item-name">
+            Butter chicken
+         </div>
+         <div class="menu-item-price">
+             Rs.800
+         </div>
+         <div class="menu-item-description">
+            for chicken lovers we serves the best butter chicken...
+         </div>
+      </div>
+      <!-- Item ends -->
+   </div>
+   <!-- Section ends: Appetizers -->
+   <!-- Section starts: Drinks -->
+   <div class="menu-section">
+      <h2 class="menu-section-title">DRINKS</h2>
+      <!-- Item starts -->
+      <div class="menu-item">
+         <div class="menu-item-name">
+            Choco milk
+         </div>
+         <div class="menu-item-price">
+            Rs.100
+         </div>
+         <div class="menu-item-description">
+            love chocolate, do try our thick and creamy milk shake
+         </div>
+      </div>
+      <!-- Item ends -->
+      <!-- Item starts -->
+      <div class="menu-item">
+         <div class="menu-item-name">
+            Mix fruit Juice
+         </div>
+         <div class="menu-item-price">
+            Rs.150
+         </div>
+         <div class="menu-item-description">
+            for instant energy nothing is better than our juice
+         </div>
+      </div>
+      <!-- Item ends -->
+      <!-- Item starts -->
+      <div class="menu-item">
+         <div class="menu-item-name">
+            Coffee
+         </div>
+         <div class="menu-item-price">
+            RS.50
+         </div>
+         <div class="menu-item-description">
+            feeling sleepy just drink coffee
+         </div>
+      </div>
+      <!-- Item ends -->
+      <!-- Item starts -->
+      <div class="menu-item">
+         <div class="menu-item-name">
+            Lemon Water
+         </div>
+         <div class="menu-item-price">
+            Rs.20
+         </div>
+         <div class="menu-item-description">
+           just drink it
+         </div>
+      </div>
+      <!-- Item ends -->
+   </div>
+   <!-- Section ends: Drinks -->
+</div>
+</body>
+</html>
